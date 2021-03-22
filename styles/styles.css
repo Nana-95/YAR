@@ -1,0 +1,60 @@
+header {
+    background-color:  rgba(220, 228, 252, 0.61);
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.logo{
+    width: 150px;
+    padding: 30px;
+    
+}
+.navigation-holder{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav{
+    padding: 30px;
+}
+
+ul il{
+    font: 20px;
+}
+a{
+    text-decoration: none;
+}
+.cover-image{
+    background-image: url(../images/cover3.jpg);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-content h1{
+    color: rgb(8, 0, 0);
+    font-size: 60px;
+    text-align: center;
+}
+.cover-content p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.cover-content{
+    text-align: center;
+}
+.cover-content button{
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: #015f79ec;
+    color: white;
+    transition: 0,5s ease;
+    border: none;
+    border-radius: 10px;
+}
+.cover-content button:hover{
+    transform: scale(1.1)
+}
